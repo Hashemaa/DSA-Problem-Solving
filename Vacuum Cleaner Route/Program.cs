@@ -12,17 +12,21 @@ Ex: Given the following strings...
 
 class Exercise
 {
-	//Create int origin = 0
+	//Create a int x for L and R
+	//Create a int y for U and D
 
-	//Traverse string array and check if the character at each element is either L, R, U, or D
+	//Origin is (0,0) representing x,y
 
-	//For character L and D decrement origin by 1 (-1)
-	//For character R and U increment origin by 1 (1)
+	//Traverse string array and check if the character at each element is either L, R, U, or D, and reflect upon x and y, otherwise do nothing.
+
+	//For character L and D decrement by 1 (-1)
+	//For character R and U increment by 1 (1)
 
 	//Return true if origin is zero, otherwise false
 	public static bool VacuumReturnsToStart(string? moves)
 	{
-		int origin = 0;
+		int x = 0;
+		int y = 0;
 		if (moves != null)
 		{
 			for (int i = 0; i < moves.Length; ++i)
@@ -30,22 +34,22 @@ class Exercise
 				switch (char.ToUpper(moves[i]))
 				{
 					case 'L':
-						--origin;
+						--x;
 						break;
 					case 'R':
-						++origin;
+						++x;
 						break;
 					case 'U':
-						++origin;
+						++y;
 						break;
 					case 'D':
-						--origin;
+						--y;
 						break;
 				}
 			}
 		}
 
-		return origin == 0;
+		return x == 0 && y == 0;
 	}
 
 	public static void Main(string[] args)
