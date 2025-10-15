@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse String", "Reverse_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacuum Cleaner Route", "Vacuum Cleaner Route\Vacuum Cleaner Route.csproj", "{09BABC81-0193-4F81-919F-8B873C1D0BBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contains Duplicate", "Contains Duplicate\Contains Duplicate.csproj", "{3BE34A35-482C-4104-82D3-832D2B9238EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{09BABC81-0193-4F81-919F-8B873C1D0BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09BABC81-0193-4F81-919F-8B873C1D0BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09BABC81-0193-4F81-919F-8B873C1D0BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE34A35-482C-4104-82D3-832D2B9238EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE34A35-482C-4104-82D3-832D2B9238EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE34A35-482C-4104-82D3-832D2B9238EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE34A35-482C-4104-82D3-832D2B9238EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

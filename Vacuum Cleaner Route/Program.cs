@@ -10,7 +10,7 @@ Ex: Given the following strings...
 "RUULLDRD", return true
  */
 
-class Exercise
+class Solution
 {
 	//Create a int x for L and R
 	//Create a int y for U and D

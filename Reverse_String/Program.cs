@@ -11,7 +11,7 @@ Ex: Given the following strings...
 “civic”, return “civic”
  */
 
-class Exercise
+class Solution
 {
 	//Create function that accepts a string and returns a string
 	public static string? ReverseString(string? s)
