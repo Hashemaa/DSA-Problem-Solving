@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contains Duplicate", "Conta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Anagram", "Valid Anagram\Valid Anagram.csproj", "{441BDFB3-1AEC-41D7-9AF5-344D4161BB31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ransom Note", "Ransom Note\Ransom Note.csproj", "{45CD6109-A603-4AAE-AD35-383B1CE9AF3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{441BDFB3-1AEC-41D7-9AF5-344D4161BB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{441BDFB3-1AEC-41D7-9AF5-344D4161BB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{441BDFB3-1AEC-41D7-9AF5-344D4161BB31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45CD6109-A603-4AAE-AD35-383B1CE9AF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CD6109-A603-4AAE-AD35-383B1CE9AF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CD6109-A603-4AAE-AD35-383B1CE9AF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CD6109-A603-4AAE-AD35-383B1CE9AF3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
