@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Anagram", "Valid Anag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ransom Note", "Ransom Note\Ransom Note.csproj", "{45CD6109-A603-4AAE-AD35-383B1CE9AF3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two Sums", "Two Sums\Two Sums.csproj", "{A58709F8-5A2F-4246-BBD6-BB35732530B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{45CD6109-A603-4AAE-AD35-383B1CE9AF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45CD6109-A603-4AAE-AD35-383B1CE9AF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45CD6109-A603-4AAE-AD35-383B1CE9AF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A58709F8-5A2F-4246-BBD6-BB35732530B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58709F8-5A2F-4246-BBD6-BB35732530B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58709F8-5A2F-4246-BBD6-BB35732530B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58709F8-5A2F-4246-BBD6-BB35732530B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
